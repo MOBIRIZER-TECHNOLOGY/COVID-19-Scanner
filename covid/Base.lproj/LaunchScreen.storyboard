@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_splash" translatesAutoresizingMaskIntoConstraints="NO" id="IgV-3A-ow9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo_transparent" translatesAutoresizingMaskIntoConstraints="NO" id="IGK-Yy-pSn">
+                                <rect key="frame" x="143" y="244" width="128" height="132"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="N9v-3S-WYw"/>
+                                    <constraint firstAttribute="height" constant="132" id="d1y-5d-30m"/>
+                                    <constraint firstAttribute="width" constant="128" id="qzW-bM-tOc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="132" id="zSM-pi-SRa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID-19 Scanner" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="wM2-Ht-k87">
+                                <rect key="frame" x="0.0" y="386" width="414" height="117"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="pKE-fU-Sdy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wM2-Ht-k87" secondAttribute="trailing" id="0j2-h3-o2Z"/>
+                            <constraint firstItem="wM2-Ht-k87" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0kI-hM-Wvs"/>
+                            <constraint firstItem="wM2-Ht-k87" firstAttribute="top" secondItem="IGK-Yy-pSn" secondAttribute="bottom" constant="10" id="8d7-Qw-wTZ"/>
+                            <constraint firstItem="IgV-3A-ow9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Bu1-Er-esa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IgV-3A-ow9" secondAttribute="bottom" id="D6x-1K-8iv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IgV-3A-ow9" secondAttribute="trailing" id="UgC-MX-sfa"/>
+                            <constraint firstItem="IGK-Yy-pSn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XXV-h0-xhI"/>
+                            <constraint firstItem="IgV-3A-ow9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kBn-ua-L47"/>
+                            <constraint firstItem="wM2-Ht-k87" firstAttribute="top" secondItem="IGK-Yy-pSn" secondAttribute="bottom" constant="10" id="vas-45-dn8"/>
+                            <constraint firstItem="IGK-Yy-pSn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="xoA-kM-4af"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_splash" width="375" height="667"/>
+        <image name="logo_transparent" width="128" height="132"/>
+    </resources>
+</document>
