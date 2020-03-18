@@ -8,3 +8,8 @@ https://towardsdatascience.com/using-deep-learning-to-detect-ncov-19-from-x-ray-
 
 I need more data to make the model more accurate. Kindly connect me if you get sample data.
 Contact me at info@mobirizer.com
+
+
+ 
+Note:- This is not a final product. This product is still in the research stage and under development. Therefore, do take it’s the result for granted. Please do contact specialist doctor if you have any symptoms of coronavirus.) 
+We extend our gratitude to many sources who have helped us directly or indirectly in developing this app.
